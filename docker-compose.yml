@@ -1,28 +1,19 @@
 version: '3.1'
 services:
-  API:
-    image: 'parking-control.jar'
+  app:
+    container_name: springboot_postgresql
+    image: springboot_postgresql
+    build:
+      ./
     ports:
-      - "8099:8080"
+      - 8080:8080
     depends_on:
-      PostgresSQL:
-        condition: service_healthy
-    environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/parking-control-db
-      - SPRING_DATASOURCE_USERNAME=postgres
-      -  SPRING_DATASOURCE_PASSWORD=password
-      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
-
-  PostgresSQL:
+      - postgresqldb
+  postgresqldb:
     image: postgres
     ports:
-      - "5499:5432"
+      - 5432:5432
     environment:
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_PASSWORD=postgres
       - POSTGRES_USER=postgres
-      - POSTGRES_DB=postgres
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
+      - POSTGRES_DB=parking-control-db
