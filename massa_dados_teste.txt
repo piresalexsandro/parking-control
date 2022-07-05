@@ -1,0 +1,50 @@
+{
+    "parkingSpotNumber" : "2B",
+    "licensePlateCar" : "DQQ2565",
+    "brandCar" : "VOLKSWAGEN",
+    "modelCar" : "FOX",
+    "colorCar" : "Black",
+    "reponsibleName" : "MARIA APARECIDA RAFAEL PIRES",
+    "apartment" : "212",
+    "block" : "D"
+}
+{
+    "parkingSpotNumber" : "4D",
+    "licensePlateCar" : "ADC1488",
+    "brandCar" : "FORD ",
+    "modelCar" : "MUSTANG",
+    "colorCar" : "FULL BLACK",
+    "reponsibleName" : "ALEXSANDRO PIRES",
+    "apartment" : "41",
+    "block" : "C"
+}
+{
+    "parkingSpotNumber" : "3C,
+    "licensePlateCar" : "CIR8319",
+    "brandCar" : "CHEVROLET",
+    "modelCar" : "CRUZE 2022",
+    "colorCar" : "GREY",
+    "reponsibleName" : "ANDREIA PIRES",
+    "apartment" : "2301",
+    "block" : "A"
+}
+{
+    "parkingSpotNumber" : "1A",
+    "licensePlateCar" : "AAA1111",
+    "brandCar" : "Volkswaegm",
+    "modelCar" : "Fusca",
+    "colorCar" : "Azul",
+    "reponsibleName" : "Julio Maria Pires",
+    "apartment" : "1002",
+    "block" : "A"
+}
+{
+    "parkingSpotNumber" : "999",
+    "licensePlateCar" : "AAA1234",
+    "brandCar" : "FIAT",
+    "modelCar" : "UNO",
+    "colorCar" : "LARANJA",
+    "reponsibleName" : "JOSE DA SILVA",
+    "apartment" : "1",
+    "block" : "X"
+}
