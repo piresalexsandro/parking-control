@@ -1,0 +1,2 @@
+docker exec -it be8cd638dee8 psql -U postgres parking-control-db
+                containerID
